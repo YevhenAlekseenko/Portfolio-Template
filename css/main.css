@@ -119,6 +119,10 @@ body {
     max-width: 1440px;
   }
 }
+.header {
+  position: relative;
+}
+
 .header-container {
   padding: 24px 20px;
 }
@@ -139,8 +143,20 @@ body {
   display: flex;
 }
 
+@media screen and (min-width: 1440px) {
+  .background__wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 900px;
+    height: 100%;
+    background-color: #181823;
+  }
+}
+
 .nav__list {
   display: none;
+  z-index: 1;
 }
 @media screen and (min-width: 768px) {
   .nav__list {
