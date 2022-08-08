@@ -26,7 +26,7 @@
 		top: 0;
 		right: 0;
 		width: 900px;
-		height: 100%;
+		height: 900px;
 		background-color: #181823;
 	}
 }
@@ -51,10 +51,20 @@
 	&.accent {
 		font-weight: 700;
 		background-color: #5221e6;
+
+		&:hover,
+		:focus {
+			background-color: var(--title-color);
+		}
 	}
 
 	@media screen and (min-width: 1440px) {
 		line-height: calc(24 / 16);
+	}
+
+	&:hover,
+	&:focus {
+		color: #5221e6;
 	}
 }
 

@@ -149,7 +149,7 @@ body {
     top: 0;
     right: 0;
     width: 900px;
-    height: 100%;
+    height: 900px;
     background-color: #181823;
   }
 }
@@ -175,10 +175,17 @@ body {
   font-weight: 700;
   background-color: #5221e6;
 }
+.nav__link.accent:hover,
+.nav__link.accent :focus {
+  background-color: var(--title-color);
+}
 @media screen and (min-width: 1440px) {
   .nav__link {
     line-height: 1.5;
   }
+}
+.nav__link:hover, .nav__link:focus {
+  color: #5221e6;
 }
 
 .header-burger {
@@ -198,4 +205,101 @@ body {
 
 .icon-burger {
   fill: #c4c4c4;
+}
+
+.hero {
+  padding-top: 0;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    position: relative;
+    display: flex;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-img {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__descr {
+    position: absolute;
+    left: 320px;
+    width: 445px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__descr {
+    width: 738px;
+    left: 662px;
+  }
+}
+
+.hero__title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.1875;
+  margin-top: 48px;
+  margin-bottom: 16px;
+  color: var(--title-color);
+}
+@media screen and (min-width: 768px) {
+  .hero__title {
+    font-size: 56px;
+    line-height: 1.1964285714;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__title {
+    font-size: 78px;
+    line-height: 1.2051282051;
+  }
+}
+
+.hero__title--accent {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.1875;
+  color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (min-width: 768px) {
+  .hero__title--accent {
+    font-size: 56px;
+    line-height: 1.1964285714;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__title--accent {
+    font-size: 78px;
+    line-height: 1.2051282051;
+  }
+}
+
+.hero__text {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--title-color);
+}
+@media screen and (min-width: 768px) {
+  .hero__text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
 }/*# sourceMappingURL=main.css.map */
