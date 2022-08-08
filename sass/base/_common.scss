@@ -1,0 +1,25 @@
+body {
+  font-family: 'Sen', serif;
+  font-size: var(--main-body-text);
+  line-height: 150%;
+  color:var(--primary-p-color);
+  background-color: var(--main-bgr-color);
+}
+
+.section {
+  max-width: 1920px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
