@@ -308,6 +308,11 @@ body {
   padding-top: 48px;
   padding-bottom: 48px;
 }
+@media screen and (min-width: 768px) {
+  .work {
+    padding: 80px 40px 104px 40px;
+  }
+}
 
 .work__pre-title {
   font-weight: 700;
@@ -317,6 +322,13 @@ body {
   margin-bottom: 8px;
   color: #8491a0;
 }
+@media screen and (min-width: 768px) {
+  .work__pre-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
 
 .work__title {
   font-weight: 700;
@@ -325,9 +337,29 @@ body {
   margin-bottom: 40px;
   color: #ffffff;
 }
+@media screen and (min-width: 768px) {
+  .work__title {
+    font-size: 55px;
+    line-height: 1.2;
+  }
+}
 
-.work__box {
+@media screen and (min-width: 768px) {
+  .work__list {
+    display: flex;
+    justify-content: center;
+    margin-right: -25px;
+  }
+}
+
+.work__item {
   margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .work__item {
+    flex-basis: calc((100% - 130px) / 3);
+    margin-right: 25px;
+  }
 }
 
 .work__number {
