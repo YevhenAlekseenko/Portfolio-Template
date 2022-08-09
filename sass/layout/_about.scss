@@ -1,0 +1,41 @@
+.about {
+	background-color: #fff3e4;
+}
+
+.about__container {
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.about__title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: calc(38 / 32);
+	margin-bottom: 24px;
+
+	color: #181823;
+}
+
+.about__text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: calc(27 / 18);
+	margin-bottom: 91px;
+
+	color: #5b6876;
+}
+
+.about__link {
+	font-family: "Sen";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+
+	color: #181823;
+}
+
+.about__img {
+	width: 100%;
+	padding: 0px;
+}
